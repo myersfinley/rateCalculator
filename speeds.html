@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--[if lte IE 9]>
+<html class="old-ie" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8) | !(IE 9)  ]><!-->
+<html lang="en-US" class="no-js">
+<!--<![endif]-->
+  <head>
+    <title>
+      UW-Madison COE RPM Calculator
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/fonts.0.0.1.css">
+    <link rel="stylesheet" href="styles/uw-style.css">
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'')})(document.documentElement)</script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="scripts/speeds.js"></script>
+    <!--[if lte IE 9]>
+      <link rel="stylesheet" href="css/uw-style-ie.css?version=1.0.3">
+    <![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- UW navbar -->
+    <div class="uw-global-bar">
+      <div class="uw-global-name-link" >University of Wisconsin-Madison</div>
+    </div> 
+
+    <!-- branding header -->
+    <header id="branding" class="uw-header uw-has-search">
+      <div class="uw-header-container">
+        <div class="uw-header-crest-title">
+          <div class="uw-header-crest">
+           <img class="uw-crest-svg" src="images/uw-crest.svg" alt="Link to University of Wisconsin-Madison home page">
+          </div>
+          <div class="uw-title-tagline">
+            <h1 id="site-title" class="uw-site-title">
+              <a href="" rel="home">RPM Calculator</a>
+            </h1>
+            <div id="site-description" class="uw-site-tagline">COE Student Shop</div>
+          </div>
+        </div>
+       
+      </div>
+    </header>
+
+ 
+    <!-- Main and secondary nav menus -->
+    <div id="uw-top-menus" class="uw-is-visible uw-horizontal uw-hidden" aria-hidden="false">
+      <div class="uw-main-nav">
+        <nav class="uw-nav-menu uw-nav-menu-reverse" aria-label="Main Menu">
+          <ul id="uw-main-nav">
+          </ul>
+        </nav>
+      </div>
+      <div class="uw-secondary-nav">
+      </div>
+    </div>
+    <!-- main content -->
+    <main id="main">
+        <div class='choices'>
+            <ul>
+                <li id='drillChoice'>Drilling</li>
+                <li id='millChoice'>Milling</li>
+                <li id='turnChoice'>Turning</li>
+                <li id='boreChoice'>Boring</li>
+                <li id='reamChoice'>Reaming</li>
+                <li id='partChoice'>Parting</li>
+            </ul>
+        </div>
+        
+        <div class='workSpace'></div>
+    
+    </main>
+
+    <footer id="colophon" class="uw-footer">
+      <div class="uw-footer-content">
+       
+      </div>
+    </footer>
+    
+    <!--[if lte IE 9]>
+      <script src="js/polyfills/classList.js"></script>
+    <![endif]-->
+    <script src='scripts/speeds.js'></script>
+  </body>
+</html>
